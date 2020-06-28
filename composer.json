@@ -1,0 +1,34 @@
+{
+    "name": "fantomx1/yii2-starbootstrap-freelancer-asset",
+    "description": "fantomx1/yii2-starbootstrap-freelancer-asset",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","starbootstrap-freelancer"],
+    "authors": [
+        {
+            "name": "frantisek.hallo",
+            "email": "fantomx1@gmail.com"
+        }
+    ],
+    "require": {
+        "blackrockdigital/startbootstrap-freelancer": "@dev"
+    },
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "blackrockdigital/startbootstrap-freelancer",
+                "version":"master",
+                "source": {
+                    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git",
+                    "type": "git",
+                    "reference":"master"
+                }
+            }
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "fantomx1\\": ""
+        }
+    }
+}

@@ -1,0 +1,46 @@
+
+Currently needs a workaround due to recursive repostitory definitions:
+
+add the following to the composer.json
+
+'
+        {
+            "type":"package",
+            "package": {
+                "name": "blackrockdigital/startbootstrap-freelancer",
+                "version":"master",
+                "source": {
+                    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git",
+                    "type": "git",
+                    "reference":"master"
+                }
+            }
+        },
+'
+
+and install by 
+`
+composer require fantomx1/yii2-starbootstrap-freelancer-asset:@dev
+`
+
+
+Copy the layout file main.php to the desired layout location tier. The script automatically copies the
+original to be adjusted by the following operation.
+
+Provide the published directory to the copied template
+$directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/blackrockdigital/starbootstrap-freelancer/dist');
+
+adjust copied contents by replacing asset paths similarly
+
+"js/
+
+"<?php echo $directoryAsset? >/js/
+
+"css/
+
+"<?php echo $directoryAsset? >/css/
+
+
+"assets/
+
+"<?php echo $directoryAsset? >/assets/
