@@ -31,19 +31,23 @@ Copy the layout file main.php to the desired layout location tier. The script au
 original to be adjusted by the following operation.
 
 Provide the published directory to the copied template
+```
 $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/blackrockdigital/starbootstrap-freelancer/dist');
+```
 
 adjust copied contents by replacing asset paths similarly
 
+```
 "js/
-
 "<?php echo $directoryAsset? >/js/
+```
 
+```
 "css/
-
 "<?php echo $directoryAsset? >/css/
+```
 
-
+```
 "assets/
-
 "<?php echo $directoryAsset? >/assets/
+```
