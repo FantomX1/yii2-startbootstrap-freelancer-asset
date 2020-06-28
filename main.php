@@ -1,7 +1,7 @@
 <?php
 
 
-\fantomx1\StartbootstrapFreelancerAsset::register($this);
+\fantomx1\StartbootstrapFreelancerAsset\StartbootstrapFreelancerAsset::register($this);
 
 // $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@app/assets');
 

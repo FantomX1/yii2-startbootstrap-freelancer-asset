@@ -1,7 +1,7 @@
 <?php
 
 
-namespace fantomx1;
+namespace fantomx1\StartbootstrapFreelancerAsset;
 
 
 use yii\web\AssetBundle;
