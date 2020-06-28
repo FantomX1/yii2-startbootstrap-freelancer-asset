@@ -55,3 +55,9 @@ adjust copied contents by replacing asset paths similarly
 "assets/
 "<?php echo $directoryAsset? >/assets/
 ```
+
+
+
+to examine:
+https://stackoverflow.com/questions/28634758/autoloading-php-packages-with-hyphens#fromHistory
+https://stackoverflow.com/questions/21463421/a-non-empty-psr-4-prefix-must-end-with-a-namespace-separator#fromHistory
