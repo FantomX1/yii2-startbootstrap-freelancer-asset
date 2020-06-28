@@ -1,6 +1,8 @@
 A yii2 wrap asset for the bootstrap theme library blackrockdigital/startbootstrap-freelancer 
 https://github.com/BlackrockDigital/startbootstrap-freelancer.git
 
+Inspiration https://github.com/dmstr/yii2-adminlte-asset
+
 Currently needs a workaround due to recursive repostitory definitions:
 https://getcomposer.org/doc/faqs/why-can%27t-composer-load-repositories-recursively.md
 
