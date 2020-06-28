@@ -1,9 +1,11 @@
+A yii2 wrap asset for the bootstrap theme library blackrockdigital/startbootstrap-freelancer 
+https://github.com/BlackrockDigital/startbootstrap-freelancer.git
 
 Currently needs a workaround due to recursive repostitory definitions:
 
 add the following to the composer.json
 
-'
+```
         {
             "type":"package",
             "package": {
@@ -16,7 +18,7 @@ add the following to the composer.json
                 }
             }
         },
-'
+```
 
 and install by 
 `
