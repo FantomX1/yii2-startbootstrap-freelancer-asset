@@ -27,8 +27,10 @@ composer require fantomx1/yii2-starbootstrap-freelancer-asset:@dev
 `
 
 
-Copy the layout file main.php to the desired layout location tier. The script automatically copies the
-original to be adjusted by the following operation.
+Copy the layout file main.php to the desired layout location tier.
+And then it works straight ahead, though for customization 
+the script automatically copies also the
+original into `/main_startbootstrapAdjust.php` to be adjusted by the following operation.
 
 Provide the published directory to the copied template
 ```
